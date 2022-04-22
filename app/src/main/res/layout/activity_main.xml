@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Ball"
+        android:src="@drawable/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"/>
+
+    <ImageView
+        android:id="@+id/paddleLeft"
+        android:src="@drawable/paddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="70dp"
+        android:scaleX="6"
+        android:scaleY="1.3"/>
+
+    <ImageView
+        android:id="@+id/paddleRight"
+        android:src="@drawable/paddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="320dp"
+        android:scaleX="6"
+        android:scaleY="1.3"/>
+
+<!--<Button-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="20dp"-->
+<!--    android:layout_marginTop="600dp"-->
+<!--    android:width="50dp"-->
+<!--    android:height="1dp"/>-->
+
+</RelativeLayout>
