@@ -39,9 +39,6 @@ class MainActivity : AppCompatActivity() {
        val paddleR = R.id.paddleRight
        val ball = R.id.Ball
 
-
-   display(ball)
-View.ball.TRANSLATION
    }
 
     private fun display(ball: Int) {
